@@ -1,0 +1,116 @@
+<section class="Professor-breadcrumb">
+  <div class="container">
+    <ul class="breadcrumbs-custom-path">
+      <li><a [routerLink]='[""]'>Home</a></li> /
+      <li><a [routerLink]='["/our-programs"]'> Our Programs</a></li>
+      <li class="active"> / Kids Program </li>
+    </ul>
+  </div>
+</section>
+
+<section class="Professor-programs pb-5">
+  <div class="container">
+    <h1 class="title py-5">Kids Program</h1>
+    <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iste doloribus molestias expedita
+      temporibus! Id unde rerum fuga quae adipisci, officia consequatur tempore voluptates natus pariatur minus
+      praesentium cupiditate molestias. </p>
+    <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iste doloribus molestias expedita
+      temporibus! Id unde rerum fuga quae adipisci, officia consequatur tempore voluptates natus pariatur minus
+      praesentium cupiditate molestias. </p>
+    <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iste doloribus molestias expedita
+      temporibus! Id unde rerum fuga quae adipisci, officia consequatur tempore voluptates natus pariatur minus
+      praesentium cupiditate molestias. </p>
+
+  </div>
+</section>
+
+<section class="courses">
+  <div class="container">
+    <div class="row">
+      <div class="col-4 offset-1">
+        <button class="carousel-cell summer actives" (click)="openContent('.summer-content');setActiveTab('.summer')">
+          <h1>Summer Program </h1>
+        </button>
+      </div>
+      <div class="col-4 offset-2">
+        <button class="carousel-cell french"
+          (click)="openContent('.french-content');setActiveTab('.french')">
+          <h1>French for kids</h1>
+          <h1>Courses</h1>
+        </button>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="summer-content my-5 py-5">
+  <div class="container">
+    <h1 class="title mb-4 text-center"> Summer Program For Kids in Professor</h1>
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+        <p>Dear Parents:
+          <br>
+          Welcome to the 10th annual Professor for Kids Teens summer enrichment program. We are proud to offer an
+          exciting lineup of classes this year to suit everyone’s interests. With the wide variety of innovative and
+          relevant courses that you have come to expect from Professor for Kids, we truly look forward to seeing
+          you this summer.
+          <br>
+          Each Summer Fun Program will last 4 months, with a focus on different themes in English. Activities will be
+          language rich, and will include, arts & crafts, songs, stories, drama, and problem solving activities computer
+          skills etc.
+          <br>
+          Children will be grouped into different classes according to their age and/or language ability, with a teacher
+          student ratio of 1 to 15. For the summer Classes, the focus is on the spoken language, with reading and
+          writing introduced as developmentally appropriate.
+          <br>
+          Reading is a complex skill with many components: an understanding of how sounds are put together to make
+          words; fluidity in reading those words; an ongoing need for an ever-growing vocabulary; and an overall
+          comprehension of understanding what is read. All of these areas will be addressed the Montessori way.
+
+          <br>
+
+          We offer a first come, first served registration policy, so please sign up for classes as soon as possible to
+          avoid being put on waitlist.</p>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <a class="btn btn-style btn-danger mt-sm-5 mt-4 see-all">Apply Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="french-content my-5 py-5">
+  <div class="container">
+    <h1 class="title mb-4 text-center"> French for Kids Courses: Overview</h1>
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+        <p>The French for Kids program at Professor for Training Courses consists of 6 courses.
+          <br>
+          Professor is one of the largest language learning centers all over Egypt.</p>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <ul>
+          <li>“French for Kids” courses are designed specifically for kids aged 8-13 years. It qualifies kids to master
+            French and motivates them to practice French confidently. The courses are mainly based on fun learning
+            approaches. It prepares kids to pass the tests of the Cambridge professional French test for kids, held at
+            the British Council.</li>
+          <li>“French for Kids” courses are the first step for kids towards attending prestigious universities in the
+            future, such as the American University in Cairo and other major universities in Egypt and around the world.
+          </li>
+          <li>“French for Kids” courses are designed specifically for kids aged between 8 and 13 years, with very
+            effective interactive approaches based on fun activities.</li>
+          <li>In “French for Kids” courses, the kids enjoy many interesting French songs, stories, as well as studying
+            phonetics in funny ways using interactive interesting methodologies.</li>
+          <li>To join the course, learners have to take a placement test. Upon completion of the course, the learner
+            takes a final exam to measure his/her proficiency at the level. Upon passing that final exam, the learner
+            can pass on to the next level and get a certificate showing the completed courses.<br>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <a class="btn btn-style btn-danger mt-sm-5 mt-4 see-all">Apply Now</a>
+      </div>
+    </div>
+  </div>
+</section>

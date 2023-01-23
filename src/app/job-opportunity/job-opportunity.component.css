@@ -1,0 +1,210 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  color: #3f3a64;
+  font-family: 'Prompt', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.breadcrumbs-custom-path a:hover {
+    color: var(--primary-color);
+    opacity: 1;
+}
+.Professor-breadcrumb {
+    display: block;
+    margin: 0 auto;
+    z-index: 99;
+    padding: 25px 0;
+    background: #f8f9fa;
+  }
+  
+  .breadcrumbs-custom-path {
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .breadcrumbs-custom-path li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 600 !important;
+    text-transform: capitalize;
+  }
+  
+  .breadcrumbs-custom-path a,
+  .breadcrumbs-custom-path a:active,
+  .breadcrumbs-custom-path a:focus {
+    color: var(--primary-color);
+    opacity: .8;
+  }
+  
+  .breadcrumbs-custom-path li.active {
+    color: #3f3a64;
+    opacity: .7;
+  }
+  .Professor-programs h1.title {
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  p ,li {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666;
+    opacity: .8;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  
+  .Professor-programs p {
+    margin: 20px 0;
+  }
+  
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: transparent;
+}
+
+.carousel-cell:hover { background:var(--primary-color)}
+.carousel-cell {
+  width: 40%;
+  height: 170px;
+  margin-right: 10px;
+  box-shadow: 0 10px 30px 0 rgb(17 17 17 / 2%);
+  background: #112339;
+  padding: 30px;
+  border-radius: 5px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  border: none;
+}
+
+.carousel-cell h1{
+  font-size: 22px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+.courses-carousel{
+  height: 225px;
+}
+  
+h1.title {
+  font-weight: 800;
+}
+.sub-title{
+  font-size: 19px;
+  font-weight: 600;
+  color: #040a12;
+}
+.btn-danger{
+  color: #fff;
+  background-color: #f3525a;
+  border-color: #f3525a;
+}
+.btn-style{
+  padding: 12px 35px;
+  font-size: 18px;
+  width: 100%;
+  line-height: 30px;
+  margin: 0 auto;
+  font-weight: 600;
+  display: block;
+  transition: 0.3s ease-in;
+  border-radius: 5px;
+}
+
+.montessori-content,
+.teaching-english,
+.math-science{
+display: none;
+}
+.actives{
+  background-color: var(--primary-color)
+}
+p.text {
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+.pic1{background-image: url(../../assets/image/front-end.jpg);}
+.pic2{background-image: url(../../assets/image/back-end.jpg);}
+.pic3{background-image: url(../../assets/image/supervisor.jpg);}
+.pic4{background-image: url(../../assets/image/acountant.jpg);}
+.pic5{background-image: url(../../assets/image/preschool.jpg);}
+.pic6{background-image: url(../../assets/image/secretary.jpg);}
+.pic7{background-image: url(../../assets/image/english-Instructor.jpg);}
+.pic8{background-image: url(../../assets/image/teacher.jpg);}
+.pic9{background-image: url(../../assets/image/sales.jpg);}
+.pic10{background-image: url(../../assets/image/teacher.jpg);}
+.pic11{background-image: url(../../assets/image/it-job.jpg);}
+
+
+.pic{
+ display: block;
+ width: 100%;
+ background-size: cover;
+ background-position: center;
+ height: 222px;
+}
+.card-shape .content p {
+    text-align: start;
+    margin: 20px 0;
+    line-height: 24px;
+    transition: all linear .5s;
+
+}
+.card-shape .content h4{
+  font-size: 18px;
+    margin-bottom: 30px;
+}
+.card-shape .content{
+  margin: 24px 20px 20px;
+  color: #8C8889;
+}
+
+.card-shape:hover{
+  box-shadow: 0 3px 10px 0 rgb(0 0 0 / 16%);
+}
+.card-shape{text-align: left;
+  width: 100%;
+  min-height: 500px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #f0f0f0;
+  overflow: hidden;
+  border-radius: 6px;
+  margin: 30px 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  position: relative;
+  transition: 0.3s;
+  transition:all linear .5s;
+
+}
+
+.general-content,
+.teaching-content{
+  display: none;
+}
+.secretarial{
+    height:65px;
+}

@@ -1,0 +1,117 @@
+.Professor-footer {
+    background: #182c44;
+}
+.Professor-footer a.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.Professor-footer p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #c2c2c2;
+}
+.main-social-footer-29 a {
+    margin: 0 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    background: none;
+    width: 45px;
+    height: 43px;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: 0.3s;
+    background: #102339;
+    color: #a1a4a9;
+}
+.Professor-footer h6.footer-title-29 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+    opacity: .9;
+    height: 50px;
+}
+.Professor-footer .footer-list-29 ul li, .Professor-footer .midd-footer-29:nth-child(1) .footer-list-29 ul li:last-child {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.Professor-footer .footer-list-29 ul li a {
+    opacity: .8;
+}
+.Professor-footer .footer-list-29 ul li a, .Professor-footer .footer-list-29 ul li p, .Professor-copyright .footer-list-29 ul li a, .Professor-footer a {
+    font-size: 18px;
+    line-height: 28px;
+    color: #c0c0c0;    
+}
+a.email {
+    font-size: 15px !important;
+}
+.footer-list-29 ul li p{
+    font-size: 16px;
+}
+.email{
+    font-size:15px;
+}
+.Professor-copyright {
+    padding: 1.5em 0;
+    border-top: 1px solid rgba(167, 166, 166, 0.2);
+}
+.Professor-copyright p.copy-footer-29 {
+    align-self: center;
+    color: #c2c2c2;
+    font-size: 17px;
+    letter-spacing: .5px;
+}
+.main-social-footer-29 a:hover {
+    background: var(--primary-color);
+    transition: 0.3s;
+    color: #fff;
+    opacity: 1;
+}
+.Professor-copyright #movetop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: var(--primary-color);
+    padding: 0;
+    line-height: 36px;
+    border-radius: 35px;
+    transition: 0.3s ease-out;
+}
+.fa {
+    padding-top: 12px;
+}
+li:hover a{
+    color: white !important; 
+}
+a{
+    text-decoration: none;
+    transition: all linear .5s;
+}
+.main-social-footer-29.mb-3 {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+}
+@media screen and (max-width:992px){
+    .main-social-footer-29.mb-3 {
+        width: fit-content;
+}
+}

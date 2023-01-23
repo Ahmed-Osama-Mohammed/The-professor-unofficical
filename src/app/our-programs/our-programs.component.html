@@ -1,0 +1,57 @@
+<section class="Professor-breadcrumb">
+  <div class="container">
+    <ul class="breadcrumbs-custom-path">
+      <li><a [routerLink]='[""]'>Home</a></li>
+      <li class="active">/ Our Programs</li>
+    </ul>
+  </div>
+</section>
+
+<section class="Professor-programs pb-5">
+  <div class="container">
+    <h1 class="title py-5">Programs of Professor</h1>
+    <p class="text"> Professor is an ISO 9001 certified and authorized language learning and training center.
+      It works in partnership with the US-based Atlanta Institute, and Professor is one of the largest
+      language learning centers all over Egypt.</p>
+    <p> Professor is one of the largest management centers all over Egypt. </p>
+    <p> The teaching Diplomas are offered by Professor for all the teachers desiring to teach for kids or
+      adults. It helps them enhance their teaching skills and to gain high profits because it maximizes their
+      opportunities to win jobs in language schools, universities and certified training centers.</p>
+  </div>
+
+  <div class="title-heading-w3 text-center mx-auto mb-5 pb-sm-4 mt-5">
+    <h3 class="title-main">Pick a Course to <span>Get Started</span></h3>
+  </div>
+
+  <div class="courses container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 my-3" *ngFor="let course of courses; let i =index">
+        <div class="blog-card-single">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="grids5-info position-relative">
+                  <img src='{{course.img}}' alt='{{course.name}}' class="img-fluid">
+                </div>
+                <div class="content-main-top">
+                  <h4><a >{{course.name}}</a></h4>
+                </div>
+            </div>
+            <div class="flip-card-back">
+                <div class="content-main-top back">
+                  <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="top-content-border d-flex align-items-center justify-content-between mt-5 pt-4">
+                    <button class="btn btn-style btn-style-primary" (click)="Navigator(i)">More Details<i
+                        class="fa fa-arrow-right ml-2" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+</section>

@@ -1,0 +1,271 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  color: #3f3a64;
+  font-family: 'Prompt', sans-serif;
+}
+li{
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.breadcrumbs-custom-path a:hover {
+  color: var(--primary-color);
+  opacity: 1;
+}
+.Professor-breadcrumb {
+  display: block;
+  margin: 0 auto;
+  z-index: 99;
+  padding: 25px 0;
+  background: #f8f9fa;
+}
+
+.breadcrumbs-custom-path {
+  text-align: center;
+  display: inline-block;
+}
+
+.breadcrumbs-custom-path li {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.breadcrumbs-custom-path a,
+.breadcrumbs-custom-path a:active,
+.breadcrumbs-custom-path a:focus {
+  color: var(--primary-color);
+  opacity: .8;
+}
+
+.breadcrumbs-custom-path li.active {
+  color: #3f3a64;
+  opacity: .7;
+}
+
+.Professor-programs h1.title {
+  font-size: 26px;
+  text-align: center;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 28px;
+  color: #666;
+  opacity: .8;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.Professor-programs p {
+  margin: 20px 0;
+}
+
+.title-heading-w3 {
+  max-width: 700px;
+}
+
+h3.title-main,
+h3.title-main-2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  position: relative;
+}
+
+h3.title-main:before {
+  left: -20px;
+  bottom: -8px;
+}
+
+h3.title-main:before,
+h3.title-main:after {
+  content: "";
+  background: var(--font-color);
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  margin: 0 auto;
+}
+
+section.Professor-programs.mb-5 {
+  background: #f8f9ff;
+}
+
+h3.title-main span {
+  color: var(--primary-color);
+}
+
+h3.title-main:after {
+  left: 20px;
+  bottom: -15px;
+}
+
+h3.title-main:before,
+h3.title-main:after {
+  content: "";
+  background: var(--font-color);
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  margin: 0 auto;
+}
+
+.blog-card-single {
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  height: 390px;
+}
+.back{
+    height: 356px;
+    border-radius: 8px;
+}
+.position-relative {
+  position: relative !important;
+}
+
+.grids5-info img {
+  display: block;
+  width: 100%;
+  height: 270px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: gainsboro 1px solid;
+  border-bottom: none;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-main-top p {
+  text-align: center;
+  color: white;
+  height: 171px;
+  padding-top: 20px;
+
+}
+
+.content-main-top {
+  padding: 20px;
+  border: 1px solid gainsboro;
+  border-top: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #112339;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 19px !important;
+  font-weight: 600 !important;
+  height: 45px;
+}
+
+h4 a {
+  color: white
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--font-color);
+  letter-spacing: .4px;
+}
+
+.top-content-border {
+  border-top: 1px solid gainsboro;
+}
+
+.btn-style-primary {
+  color: var(--primary-color);
+  padding: 0;
+  background: transparent;
+  font-size: 14px;
+}
+.btn-style-primary:hover {
+    color: white;
+    background: var(--primary-color);
+}
+.btn-style {
+  padding: 14px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--primary-color);
+  width: 100%;
+  border-radius: 4px;
+  background: #fff;
+  border: none;
+  transition: all .25s ease-in-out;
+}
+.flip-card {
+    background-color: transparent;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 8px;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+  

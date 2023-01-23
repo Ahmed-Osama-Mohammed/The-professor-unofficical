@@ -1,0 +1,212 @@
+li{
+    margin: 20px 0;
+  }
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    color: #3f3a64;
+    font-family: 'Prompt', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.breadcrumbs-custom-path a:hover {
+    color: var(--primary-color);
+    opacity: 1;
+}
+.Professor-breadcrumb {
+    display: block;
+    margin: 0 auto;
+    z-index: 99;
+    padding: 25px 0;
+    background: #f8f9fa;
+}
+.breadcrumbs-custom-path {
+    text-align: center;
+    display: inline-block;
+}
+.breadcrumbs-custom-path li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.breadcrumbs-custom-path a, .breadcrumbs-custom-path a:active, .breadcrumbs-custom-path a:focus {
+    color: var(--primary-color);
+    opacity: .8;
+}
+.breadcrumbs-custom-path li.active {
+    color: #3f3a64;
+    opacity: .7;
+}
+.radius-image {
+    border-radius: 5px;
+}
+.img-responsive {
+    max-width: 100%;
+    display: block;
+}
+.title-big {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+    max-width: 570px;
+    margin: auto;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666;
+    opacity: .8;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.btn-style {
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto;
+    font-weight: 600;
+    display: block;
+    transition: 0.3s ease-in;
+    border-radius: 5px;
+}
+.Professor-features-4 .features4-grid:hover, .Professor-features-4 .features4-grid.active {
+    box-shadow: 0 10px 30px 0 rgb(17 17 17 / 13%);
+}
+.Professor-features-4 .features4-grid.active {
+    background: var(--primary-color);
+}
+.Professor-features-4 .features4-grid {
+    box-shadow: 0 10px 30px 0 rgb(17 17 17 / 2%);
+    background: #112339;
+    padding: 30px;
+    transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    border-radius: 5px;
+    width: 98%;
+    height: 170px;
+}
+.Professor-features-4 .feature-images span {
+    color: #fff;
+    font-size: 28px;
+}
+.Professor-features-4 button{
+    border:none
+}
+.Professor-features-4 .features4-grid:hover, .Professor-features-4 .features4-grid.active {
+    box-shadow: 0 10px 30px 0 rgb(17 17 17 / 13%);
+}
+.Professor-features-4 .features4-grid:hover {
+    background: var(--primary-color);
+}
+.Professor-features-4 .features4-grid h5 {
+    margin: 20px 0 20px;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #f3525a;
+    border-color: #f3525a;
+}
+.plus-text p{
+    text-align: center;
+    padding: 24px 8%;
+}
+.plus-text{
+    display: none;
+}
+h1.title {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 65px;
+    font-weight: 600;
+}
+h1.sub-title ,h1.mid-title {
+    font-weight: 500;
+}
+.customers-content h1.sub-title {
+    color: #939392;
+}
+.customers-content li {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        line-height: 28px;
+        color: #666;
+        opacity: .8;
+        font-family: 'Kumbh Sans', sans-serif;
+}
+.customers-content h1.title2 {
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+}
+.customers-content img{
+    width: 100%;
+    margin-bottom: 70px;
+}
+.achievements-content h1.sub-title{
+      font-size: 23px;
+      text-align: justify;
+}
+.achievements-content li{
+    margin: 25px 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    color: #666;
+    opacity: .8;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.accreditation-content h1.sub-title {
+    font-size: 20px;
+}
+.title-big {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+    max-width: 570px;
+    margin: auto;
+}
+.img-area {
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+.img-area img {
+    transition: all 0.4s ease 0s;
+}
+.img-text {
+    padding: 25px;
+    padding-bottom: 0;
+    color: #fff;
+    text-align: center;
+}
+.img-text h4 {
+    margin: 0 0 5px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+ul.resp-tabs-list, p {
+    margin: 0px;
+    padding: 0px;
+}
+.review-text{
+    margin-top: 25px;
+}
+.accreditation-content,.achievements-content,.customers-content{
+    display: none;
+}

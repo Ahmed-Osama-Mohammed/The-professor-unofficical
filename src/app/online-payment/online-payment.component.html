@@ -1,0 +1,139 @@
+<section class="Professor-breadcrumb">
+  <div class="container">
+    <ul class="breadcrumbs-custom-path">
+      <li><a [routerLink]='[""]'>Home</a></li>
+      <li class="active">/ Online Payment</li>
+    </ul>
+  </div>
+</section>
+
+<div id="body">
+  <div class="container">
+    <div class="content-pad-3x">
+      <div class="row">
+        <div id="content" class="col-md-12" role="main">
+          <article class="single-page-content">
+            <p><code></code></p>
+            <form id="transactionForm" action="#" onsubmit="doPay()">
+              <table style="width:100%;">
+                <tbody>
+                  <tr>
+                    <td>National ID / Passport Number :</td>
+                    <td><input type="number" style="width:250px" id="transaction_nid" required=""
+                        placeholder="Enter National / Passport Number"></td>
+                  </tr>
+                  <tr>
+                    <td>Full name :</td>
+                    <td><input type="text" id="transaction_fname" style="width:250px" required=""
+                        placeholder="Enter Your Name"></td>
+                  </tr>
+                  <tr>
+                    <td>Email :</td>
+                    <td><input type="email" id="transaction_mail" required="" style="width:250px"
+                        placeholder="Enter Your E-mail"></td>
+                  </tr>
+                  <tr>
+                    <td>Phone Number :</td>
+                    <td><input type="number" id="transaction_mobile_number" required="" style="width:250px"
+                        placeholder="Enter Valid Number"></td>
+                  </tr>
+                  <tr>
+                    <td>Country :</td>
+                    <td><input type="text" id="transaction_Country" required="" style="width:150px" 
+                        placeholder="Enter Your Country"></td>
+                    <td>City :</td>
+                    <td><input type="text" id="transaction_City" required="" style="width:150px"
+                        placeholder="Enter The City"></td>
+                  </tr>
+                  <tr>
+                    <td>Job :</td>
+                    <td><input type="text" id="transaction_job" required="" style="width:150px"
+                        placeholder="Enter Your Job"></td>
+                  </tr>
+                  <tr>
+                    <td>Branch :</td>
+                    <td> <select id="transaction_branch" required="">
+                        <option disabled="disabled" selected="selected" value="">Select Branch</option>
+                        <option value="Online">Online</option>
+                        <option value="6 October">6 October</option>
+                        <option value="Maadi">Maadi</option>
+                        <option value="HTI 10th Of Ramdan">HTI 10th Of Ramdan</option>
+                        <option value="HTI Sherton">HTI Sherton</option>
+                        <option value="HTI Maturh">HTI Matruh</option>
+                        <option value="NasrCity1 Bernasous">NasrCity1 Bernasous</option>
+                        <option value="NasrCity2 Salah Salem">NasrCity2 Salah Salem</option>
+                        <option value="Shiekh Zaid">Shiekh Zaid</option>
+                        <option value="Preschool">Preschool</option>
+                      </select></td>
+                    <td>Course:</td>
+                    <td> <select required="" id="selected_course">
+                        <option disabled="disabled" selected="selected" value="">Select Course</option>
+                        <optgroup label="Teaching Courses">
+                          <option value="Montessori">Teaching for Preschool (Montessori)</option>
+                          <option value="TEFL">TEFL</option>
+                          <option value="Math&amp;Science">Teaching Math &amp; Science</option>
+                          <option value="School Management Diploma">School Management Diploma</option>
+                        </optgroup>
+                        <optgroup label="Management Diploma">
+                          <option value="Hospital Management">Hospital Management Diploma</option>
+                          <option value="Supply Chain">Supply Chain Diploma</option>
+                          <option value="PMP">PMP Diploma</option>
+                          <option value="Marketing">Marketing Diploma</option>
+                          <option value="HR">Human Resource Management Diploma</option>
+                          <option value="E-Marketing">E-Marketing</option>
+                          <option value="USMLE">USMLE</option>
+                          <option value="Soft Skill Courses">Soft Skill Courses</option>
+                          <option value="Sales Course">Sales Course</option>
+                        </optgroup>
+                        <optgroup label="Language Course">
+                          <option value="English">General English Courses</option>
+                          <option value="Conversation">Conversation English Courses</option>
+                          <option value="buiness English">Business English Courses</option>
+                          <option value="second language">Second Language</option>
+                          <option value="Arabic">Arabic Courses for Foreigner</option>
+                          <option value="Toefl">TOEFL &amp; ILETS Exam Preparation Courses</option>
+                          <option value="UTalk">UTalk</option>
+                        </optgroup>
+                        <optgroup label="IT Course">
+                          <option value="ICDL">ICDL</option>
+                          <option value="Photoshop">Photoshop</option>
+                          <option value="3D Max">3D Max</option>
+                          <option value="Autocad">Autocad</option>
+                          <option value="CCNA">CCNA</option>
+                          <option value="MCSA">MCSA</option>
+                          <option value="دورات مساحه"> دورات مساحه</option>
+                        </optgroup>
+                        <optgroup label="Kids Course">
+                          <option value="English for Kids Courses">English for Kids Courses</option>
+                          <option value="Summer Program">Summer Program</option>
+                          <option value="Mid Year">Mid Year Course</option>
+                          <option value="AIP Preschool">AIP Preschool</option>
+                        </optgroup>
+                      </select></td>
+                  </tr>
+                  <tr>
+                    <td>Amount To Pay :</td>
+                    <td><input type="number" id="transaction_amount" style="width:250px" required=""
+                        placeholder="Enter Amount To Pay"> With 3% Bank Charge</td>
+                  </tr>
+                  <tr>
+                    <td>Comment :</td>
+                    <td><textarea id="transaction_reference" required="" style="width:250px"
+                        placeholder="Enter Your Comment"></textarea></td>
+                  </tr>
+                </tbody>
+              </table>
+              <p></p>
+              <p></p>
+              <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+              <p><code> <input type="button" value="Pay Now"><br></code></p>
+              <p></p>
+            </form><code><br></code>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<iframe title="Hosted Checkout" src="https://qnbalahli.gateway.mastercard.com/checkout/hostedCheckout"
+  style="z-index: 9999; display: none; background-color: transparent; border: 0px none transparent; overflow: hidden auto; visibility: hidden; margin: 0px; padding: 0px; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%;"></iframe>

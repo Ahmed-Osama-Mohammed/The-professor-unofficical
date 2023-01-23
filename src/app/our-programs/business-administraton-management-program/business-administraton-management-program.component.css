@@ -1,0 +1,163 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  color: #3f3a64;
+  font-family: 'Prompt', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.breadcrumbs-custom-path a:hover {
+  color: var(--primary-color);
+  opacity: 1;
+}
+
+.Professor-breadcrumb {
+  display: block;
+  margin: 0 auto;
+  z-index: 99;
+  padding: 25px 0;
+  background: #f8f9fa;
+}
+
+.breadcrumbs-custom-path {
+  text-align: center;
+  display: inline-block;
+}
+
+.breadcrumbs-custom-path li {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+}
+
+.breadcrumbs-custom-path a,
+.breadcrumbs-custom-path a:active,
+.breadcrumbs-custom-path a:focus {
+  color: var(--primary-color);
+  opacity: .8;
+}
+
+.breadcrumbs-custom-path li.active {
+  color: #3f3a64;
+  opacity: .7;
+}
+
+.Professor-programs h1.title {
+  font-size: 26px;
+  text-align: center;
+  font-weight: 600;
+}
+
+p,
+li {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 28px;
+  color: #666;
+  opacity: .8;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+li {
+  margin: 20px 0;
+}
+
+.Professor-programs p {
+  margin: 20px 0;
+}
+
+/* external css: flickity.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.carousel {
+  background: transparent;
+}
+
+.carousel-cell:hover {
+  background: var(--primary-color)
+}
+
+.carousel-cell {
+  width: 25%;
+  height: 170px;
+  margin-right: 10px;
+  box-shadow: 0 10px 30px 0 rgb(17 17 17 / 2%);
+  background: #112339;
+  padding: 30px;
+  border-radius: 5px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  border: none;
+}
+
+.carousel-cell h1 {
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.courses-carousel {
+  height: 225px;
+}
+
+h1.title {
+  font-weight: 800;
+}
+
+.sub-title {
+  font-size: 19px;
+  font-weight: 600;
+  color: #040a12;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #f3525a;
+  border-color: #f3525a;
+}
+
+.btn-style {
+  padding: 12px 35px;
+  font-size: 18px;
+  width: 15%;
+  line-height: 30px;
+  margin: 0 auto;
+  font-weight: 600;
+  display: block;
+  transition: 0.3s ease-in;
+  border-radius: 5px;
+}
+
+.hrm-content,
+.dmm-content,
+.smd-content,
+.pmp-content,
+.scm-content,
+.hmd-content {
+  display: none;
+}
+
+.actives {
+  background-color: var(--primary-color)
+}

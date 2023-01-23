@@ -1,0 +1,362 @@
+<section class="Professor-breadcrumb">
+  <div class="container">
+    <ul class="breadcrumbs-custom-path">
+      <li><a [routerLink]='[""]'>Home</a></li> /
+      <li><a [routerLink]='["/our-programs"]'> Our Programs</a></li>
+      <li class="active"> / IT Courses </li>
+    </ul>
+  </div>
+</section>
+
+<section class="Professor-programs pb-5">
+  <div class="container">
+    <h1 class="title py-5">IT Courses</h1>
+    <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iste doloribus molestias expedita
+      temporibus! Id unde rerum fuga quae adipisci, officia consequatur tempore voluptates natus pariatur minus
+      praesentium cupiditate molestias. </p>
+    <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iste doloribus molestias expedita
+      temporibus! Id unde rerum fuga quae adipisci, officia consequatur tempore voluptates natus pariatur minus
+      praesentium cupiditate molestias. </p>
+    <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iste doloribus molestias expedita
+      temporibus! Id unde rerum fuga quae adipisci, officia consequatur tempore voluptates natus pariatur minus
+      praesentium cupiditate molestias. </p>
+
+  </div>
+</section>
+
+<section class="courses-carousel">
+  <div class="carousel" data-flickity='{ "wrapAround": true ,"draggable": true,"autoPlay": true }'>
+    <button class="carousel-cell ccna-btn actives" (click)="openContent('.ccna');setActiveTab('.ccna-btn')">
+      <h1>Network </h1>
+      <h1>(CCNA)</h1>
+    </button>
+    <button class="carousel-cell graphics " (click)="openContent('.graphics-btns');setActiveTab('.graphics ')">
+      <h1>Graphics </h1>
+      <h1>Courses</h1>
+    </button>
+    <button class="carousel-cell mcsa-btn"  (click)="openContent('.mcsa');setActiveTab('.mcsa-btn')">
+      <h1>Sys Administrator </h1>
+      <h1>(MCSA)</h1>
+    </button>
+    <button class="carousel-cell icdl-btn" (click)="openContent('.icdl');setActiveTab('.icdl-btn')">
+      <h1>ICDL </h1>
+    </button>
+</div>
+</section>
+
+<section class="graphics-btns my-5 py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <button class=" d-max" (click)="openContent('.d-max-content');setActiveTab('.d-max')">
+                    <h1>3D Max </h1>
+                </button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <button class="photoshop" (click)="openContent('.photoshop-content');setActiveTab('.photoshop')"> 
+                    <h1>Photoshop </h1>
+                </button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <button class="autocad" (click)="openContent('.autocad-content');setActiveTab('.autocad')">
+                  <h1>AutoCad  </h1>
+                </button>
+        </div>
+        </div>
+        </div>
+</section>
+
+<section class="d-max-content my-5 py-5">
+  <div class="container">
+    <h1 class="title mb-4 text-center">3D MAX Course at Professor</h1>
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+        <p>3D Max program is an advanced professional diploma provided by Professor for Training Courses
+          which is an ISO-9001 accredited language learning and training center, collaborating with Atlanta
+          Institute and Professor is one of the largest language learning centers all over Egypt.
+          <br> Professor is one of the top training centers offering diplomas in graphics software in Egypt.
+          <br> Among these software, there is 3D Max that is professional 3D computer graphics program for making 3D
+          animations, models, games and images and is one of the most common software in use all over the world. In
+          other words, this software enables to create spatial drawings, adding real or imagined effects and materials.
+        </p>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <h1 class="title my-5">3D Max: Various Uses</h1>
+        <ul>
+          <li>Engineering designs.</li>
+          <li>Computer games.</li>
+          <li>Film production.</li>
+          <li>Cinematic effects.</li>
+          <li>Animation films.</li>
+          <li>Advertisement.</li>
+          <li>Web design.</li>
+          <li>Visual presentations in each and every field.</li>
+        </ul>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <a class="btn btn-style btn-danger mt-sm-5 mt-4 see-all">Apply Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="photoshop-content my-5 py-5">
+  <div class="container">
+    <h1 class="title mb-4 text-center"> Photoshop Courses at Professor</h1>
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+        <p>Photoshop program is an advanced professional diploma provided by Professor for Training Courses
+          which is an ISO-9001 accredited language learning and training center, collaborating with Atlanta
+          Institute and Professor is one of the largest language learning centers all over Egypt.<br>
+          Photoshop is a well-known raster graphics editor developed and published by Adobe Systems, and is the first
+          worldwide software in term of usability and the number of users.
+          <br>Photoshop is the most commonly used by designers, offered in many reference languages, including Arabic
+          and other world languages , therefore, easy to learn and easy to use, with a simple interface and the
+          possibility of exporting and saving images to the Web. Furthermore, Adobe Systems constantly releases updates
+          of this software, providing more features and tools. That means that you can use it independently without
+          other software solutions. In addition, many tools (brushes, inscriptions, and filters etc.) can be easily
+          downloaded and added to this software.</p>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <h1 class="title  my-5">Photoshop: Various Uses
+        </h1>
+        <ul>
+          <li>Create various visual designs and banners, emerging images, texts and other items.</li>
+          <li>Edit photographs, modifying and changing colors, contrast and lighting.</li>
+          <li>Modify and correct images and colors.</li>
+          <li>Add wonderful illusory effects to images easily, using filters.</li>
+          <li>Change images and designs, removing existing details and / or adding more details.</li>
+          <li>Prepare and process images to be used as inscriptions of 3D objects and programs or as images in
+            audio-visual works.</li>
+          <li>Design websites and forums, using latest Photoshop versions.</li>
+          <li>Process print works, as in books and magazines.</li>
+          <li>Create animations and make simple modifications to the video clips, using latest Photoshop versions.</li>
+        </ul>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <a class="btn btn-style btn-danger mt-sm-5 mt-4 see-all">Apply Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="autocad-content my-5 py-5">
+  <div class="container">
+    <h1 class="title mb-4 text-center"> AutoCAD Courses at Professor</h1>
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+        <p>AutoCAD program is an advanced professional diploma provided by Professor for Training Courses
+          which is an ISO-9001 accredited language learning and training center, collaborating with Atlanta
+          Institute and Professor is one of the largest language learning centers all over Egypt.
+          <br>AutoCAD courses are now available at Professor, which is an accredited center for training with
+          regard to this very field.
+          <br> AutoCAD (2D and 3D) software is used across many industries, by architects, mechanical engineers, decor
+          designers, project managers and other professionals.
+        </p>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <h1 class="title  my-5">AutoCAD: Various Applications</h1>
+        <ul>
+          <li>Architectural designs.</li>
+          <li>Electrical designs.</li>
+          <li>Mechanical designs.</li>
+          <li>Design and documentation of reclamations and developments of land plots, roads and water projects.</li>
+          <li>Design and documentation of electrical, mechanical and plumping equipment in different buildings.</li>
+        </ul>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <a class="btn btn-style btn-danger mt-sm-5 mt-4 see-all">Apply Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mcsa my-5 py-5">
+  <div class="container">
+    <h1 class="title mb-4 text-center"> Microsoft Certified Solutions Associate at Professor</h1>
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+        <p>MCSA is an advanced professional diploma provided by Professor for Training Courses which
+          is ISO-9001 accredited language learning and training center collaborating with Atlanta Institute and Professor is
+          one of the top training centers offering diplomas with regard to graphics software in Egypt. <br>
+          What is MCSA? MCSA is an abbreviation for Microsoft Certified Solutions Associate. MCSA certification means
+          that the holder is thoroughly versed in management and coordination of computer systems. It further means that
+          the holder possesses professional skills in designing the infrastructure for all solutions and installation
+          and maintenance of networks and communication systems using Microsoft systems, programs, and tools.<br>
+          Professionals with MCSA certification are especially noted for distinguished intellectual skills that enable
+          them to design and architecture high quality infrastructure and solutions using Microsoft products.<br>
+          The Microsoft Certified Solutions Associate (MCSA) certification for Windows 2012 is ideal for IT workers
+          wanting to establish a solid foundation and understanding of Windows Server 2012. Exam Topics covered include:
+          Installation & configuration of Windows Server 2012, Managing and understanding Active Directory Domain
+          Services, Implementing networking services, file and print services, Implementing local storage, Administering
+          Group Policy, Implementing Server virtualization with Hyper-V, Configure and troubleshoot DNS, Remote Access
+          and file system security, and more…</p>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <h1 class="title  my-5">Course Outline</h1>
+        <ol>
+          <li>Deploying and Managing Windows Server 2012</li>
+          <li> Introduction to Active Directory Domain Services</li>
+          <li> Managing Active Directory Domain Services Objects</li>
+          <li> Automating Active Directory Domain Services Administration</li>
+          <li> Implementing IPv4</li>
+          <li> Implementing DHCP</li>
+          <li> Implementing DNS</li>
+          <li> Implementing IPv6</li>
+          <li> Implementing Local Storage </li>
+          <li> Implementing File and Print Services</li>
+          <li> Implementing Group Policy</li>
+          <li> Securing Windows Servers by Using Group Policy Objects </li>
+          <li> Implementing Server Virtualization with Hyper-V</li>
+          <li> Deploying and Maintaining Server Images</li>
+          <li> Configuring and Troubleshooting Domain Name System</li>
+          <li> Maintaining Active Directory Domain Services</li>
+          <li> Managing User and Service Accounts</li>
+          <li> Maintaining Active Directory Domain Services</li>
+          <li> Implementing a Group Policy Infrastructure</li>
+          <li> Managing User Desktops with Group Policy</li>
+          <li> Configuring and Troubleshooting Remote Access</li>
+          <li> Installing, Configuring, and Troubleshooting the Network Policy Server Role</li>
+          <li> Implementing Network Access Protection</li>
+          <li> Optimizing File Services</li>
+          <li> Configuring Encryption and Advanced Auditing</li>
+          <li> Monitoring Windows Server 2012</li>
+          <li> Implementing Advanced Network Services</li>
+          <li> Implementing Advanced File Services</li>
+          <li> Implementing Dynamic Access Control</li>
+          <li> Implementing Distributed Active Directory Domain Services Deployments</li>
+          <li> Implementing Active Directory Domain Services Sites and Replication</li>
+          <li> Implementing Active Directory Certificate Services</li>
+          <li> Implementing Active Directory Rights Management Services</li>
+          <li> Implementing Active Directory Federation Services</li>
+        </ol>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <a class="btn btn-style btn-danger mt-sm-5 mt-4 see-all">Apply Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccna my-5 py-5">
+  <div class="container">
+    <h1 class="title mb-4 text-center"> Cisco Certified Network Associate (CCNA)
+       Courses at Professor</h1>
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+        <p>CCNA is an advanced professional diploma provided by Professor for Training Courses which
+          is an ISO-9001 accredited language learning and training center, collaborating with Atlanta Institute and the
+          Professor is one of the largest language learning centers all over Egypt.
+          <br>
+          Cisco is a US worldwide leader in networking and providing routers and switches. Furthermore, Cisco has
+          developed its own training programs which are well-reputable all over the world, having established its Cisco
+          Networking Academy providing networking certificates which are accredited everywhere in the world.
+          <br>
+          Certified Cisco Network Associate (CCNA) certificate validates the ability to install, configure, operate, and
+          troubleshoot medium-size routed and switched networks.</p>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <h1 class="title my-4">Introduction to Networks</h1>
+
+        <p> Introduces the architecture, structure, functions, components, and models of the Internet and computer
+          networks. The principles of IP addressing and fundamentals of Ethernet concepts, media, and operations are
+          introduced to provide a foundation for the curriculum. By the end of the course, students will be able to
+          build simple LANs, perform basic configurations for routers and switches, and implement IP addressing schemes.
+        </p>
+
+
+        <h1 class="title my-4"> Routing and Switching Essentials </h1>
+
+        <p> Describes the architecture, components, and operations of routers and switches in a small network. Students
+          learn how to configure a router and a switch for basic functionality. By the end of this course, students will
+          be able to configure and troubleshoot routers and switches and resolve common issues with RIPv1, RIPv2,
+          single-area and multi-area OSPF, virtual LANs, and inter-VLAN routing in both IPv4 and IPv6 networks.
+        </p>
+
+
+        <h1 class="title my-4"> Scaling Networks</h1>
+
+        <p> Describes the architecture, components, and operations of routers and switches in a large and complex
+          network. Students learn how to configure routers and switches for advanced functionality. By the end of this
+          course, students will be able to configure and troubleshoot routers and switches and resolve common issues
+          with OSPF, EIGRP, STP, and VTP in both IPv4 and IPv6 networks. Students will also develop the knowledge and
+          skills needed to implement DHCP and DNS operations in a network.
+        </p>
+
+
+        <h1 class="title my-4"> Connecting Networks </h1>
+
+        <p> Discusses the WAN technologies and network services required by converged applications in a complex network.
+          The course enables students to understand the selection criteria of network devices and WAN technologies to
+          meet network requirements. Students learn how to configure and troubleshoot network devices and resolve common
+          issues with data link protocols. Students also develop the knowledge and skills needed to implement IPSec and
+          virtual private network (VPN) operations in a complex network
+        </p>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <h1 class="title  my-5">Course Outline</h1>
+        <ol>
+          <li><strong>Introduction to Networks</strong><br> Describe the devices and services used to support
+            communications in data networks and the Internet<br> Describe the role of protocol layers in data
+            networks<br> Describe the importance of addressing and naming schemes at various layers of data networks in
+            IPv4 and IPv6 environments<br> Design, calculate, and apply subnet masks and addresses to fulfill given
+            requirements in IPv4 and IPv6 network<br> Build a simple Ethernet network using routers and switches<br> Use
+            Cisco command-line interface (CLI) commands to perform basic router and switch configurations</li>
+          <li><strong>Routing and Switching Essentials</strong><br> Describe enhanced switching technologies such as
+            VLANs, VLAN Trunking Protocol, Rapid Spanning Tree Protocol, and 802.1q<br> Describe basic switching
+            concepts and the operation of Cisco switches<br> Configure and troubleshoot basic operations of a small
+            switched network<br> Configure and troubleshoot basic operations of routers in a small routed network<br>
+            Configure and troubleshoot VLANs and inter-VLAN routing<br> Describe the operations of Dynamic Host
+            Configuration Protocol and Domain Name System for IPv4 and IPv6</li>
+          <li><strong>Scaling Networks</strong><br> Configure and troubleshoot DHCP and DNS operations for IPv4 and
+            IPv6<br> Describe the operations and benefits of the Spanning Tree Protocol (STP)<br> Configure and
+            troubleshoot STP operations<br> Describe the operations and benefits of link aggregation and Cisco VLAN
+            Trunk Protocol (VTP)<br> Configure and troubleshoot basic operations of routers in a complex routed network
+            for IPv4 and IPv6<br> Configure and troubleshoot advanced operations of routers and implement RIP, OSPF, and
+            EIGRP routing protocols for IPv4 and IPv6<br> Manage Cisco IOS® Software licensing and configuration files
+          </li>
+          <li><strong>Connecting Networks</strong><br> Describe the operations and benefits of virtual private networks
+            (VPNs) and tunneling<br> describe different WAN technologies and their benefits<br> Configure and
+            troubleshoot serial connections<br> Configure and troubleshoot broadband connections<br> Configure and
+            troubleshoot IPSec tunneling operations<br> Monitor and troubleshoot network operations using syslog, SNMP,
+            and NetFlow<br> Design network architectures for borderless networks, data centers, and collaboration</li>
+        </ol>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <a class="btn btn-style btn-danger mt-sm-5 mt-4 see-all">Apply Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="icdl my-5 py-5"> 
+  <div class="container">
+    <h1 class="title mb-4 text-center"> ICDL Training Course in Professor
+    </h1>
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+       <p> The International Computer Driving License (ICDL) Commission was established in 1995. However, in 1997, and after it became widely reputable within the EU countries, its official title turned to be the European Computer Driving License (ECDL) Foundation.        
+        <br>
+        The ICDL was developed with the aim to enable both individuals and institutions to improve their uses of information technology and computers.
+        <br>
+        The ICDL is now required by many companies, the Ministry of Communications, the Ministry of Education, the Ministry of Health and Population and the Supreme Council of Universities; i.e. ICDL will be available for a wide range of people so as to be qualified to get jobs and to develop job skills.
+        <br>
+        Professor for Training Courses is an accredited testing center for ICDL; you can have the ICDL exam in Professor headquarters in 6th of October City.
+        <br>
+        Furthermore, Professor offers discounts, up to 50%, for the ICDL preparatory courses.
+    <br>
+    Professor’s preparatory courses help you pass the ICDL test successfully.
+    <br>
+Moreover, Professor provides you with the models of the ICDL tests of the previous years so as to be ready to pass your ICDL test.  
+    </p></div>
+      <div class="col-lg-12 col-sm-12">
+          <h1 class="title  my-5">ICDL: Why Important to Obtain?</h1>
+          <ol><li><strong>ICDL</strong> is an internationally recognized standard measuring individuals’ skills of using computers.</li><li><strong>ICDL</strong> has been granted to more than 3 million trainees around the world.</li><li><strong>ICDL</strong> is a must-to-obtain qualification in more than 150 countries all over the world.</li><li><strong>ICDL</strong> is the most required and recognized by all government and private institutions.</li><li><strong>ICDL</strong> helps find great jobs.</li><li><strong>ICDL</strong> has recently become a key requirement for post-graduate studies in most Egyptian universities.</li><li><strong>ICDL</strong> is currently a requirement for all teachers working at the Ministry of Education for promotion or for those interested in getting a job at the Ministry of Education.</li><li><strong>ICDL</strong> is a means through which companies evaluate the performance of employees in terms of the mastery of computer and information technology skills.</li></ol>
+      </div>
+      <div class="col-lg-12 col-sm-12">
+        <a class="btn btn-style btn-danger mt-sm-5 mt-4 see-all">Apply Now</a>
+      </div>
+    </div>
+  </div>
+
+</section>
